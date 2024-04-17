@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="">
+        <label for="name">First Name</label>
+        <input type="text" id="name" required><br>
+        <label for="name1">Last Name</label>
+        <input type="text" id="name1" required><br>
+        <label for="">Phone Number</label>
+        <input type="tel" required><br>
+        <label for="DOB">DOB</label>
+        <input type="date" id="DOB" required><br>
+        <label for="">Age</label>
+        <input type="number" required><br>
+        <label for="">email</label><sup style="color: red;">*</sup>
+        <input type="email" ><br>
+        <label for="pwd">Password</label>
+        <input type="password" id="pwd" required><br>
+        <label for="">Gender</label>
+        <input type="radio" name="Gender">Male
+        <input type="radio" name="Gender">Female
+        <input type="radio" name="Gender">Others <br>
+        <label for="">Languages:</label>
+        <input type="checkbox">Telugu
+        <input type="checkbox">Hindi
+        <input type="checkbox">English <br>
+        <label for="">Skills</label> <br>
+        <input type="checkbox" disabled>Web <br>
+        <input type="checkbox">Python <br>
+        <input type="checkbox">SQL <br>
+        <label for="State">State</label>
+        <select name="" id="state">
+            <option value="state">select</option>
+            <option value="1">TS</option>
+            <option value="2">AP</option>
+            <option value="3">Maharashtra</option>
+        </select><br>
+        <label for="">district</label>
+        <select name="" id="">
+            <option value="">choose your district
+                <optgroup label="TS">
+                    <option value="">Medchal</option>
+                    <option value="">Gadwal</option>
+                    <option value="">Rangareddy</option>
+                </optgroup>
+                <optgroup label="TS">
+                    <option value="">Vizag</option>
+                    <option value="">East Godavari</option>
+                    <option value="">West Godavari</option>
+                </optgroup>
+            </option>
+        </select><br>
+        <label for="">Resume</label>
+        <input type="file" ><br>
+        <label for="">Image</label><br>
+        <input type="image" name="" id="" src="/assets/images/lion.jpg" style="width: 90px;height: 90px;" required><br>
+        <label for="">Address</label>
+        <textarea name="Add1" id="" cols="30" rows="10" placeholder="Enter your address"></textarea><br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>
