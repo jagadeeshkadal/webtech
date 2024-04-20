@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="">
+        <label for="name">First Name</label>
+        <input type="text" id="name" placeholder="enter first name" minlength="3" maxlength="10"><br>
+        <label for="name1">Last Name</label>
+        <input type="text" id="name1" placeholder="enter last name" minlength="3" maxlength="10"><br>
+        <label for="">Phone Number</label>
+        <input type="tel" pattern="[0-9]{10}"><br>
+        <label for="DOB">DOB</label>
+        <input type="date" id="DOB" min="1990-01-01" max="2004-12-31"><br>
+        <label for="">Age</label>
+        <input type="number" min="18"><br>
+        <label for="">email</label><sup style="color: red;">*</sup>
+        <input type="email" ><br>
+        <label for="pwd">Password</label>
+        <input type="password" id="pwd" ><br>
+        <input type="week"><br>
+        <input type="month"><br><br>
+        <input type="color"><br><br>
+        <input type="submit" value="signup">
+    </form>
+
+    <p>fieldset and legend tag</p><br><br>
+    <fieldset style="border: 7px double goldenrod;width: 50%;">
+        <legend style="font-size: 40px;">Form</legend>
+        <input type="text" placeholder="enter name" style="height: 20px;width: 40%;"><sup style="color: red;">*</sup><br><br>
+        <input type="password" placeholder="enter password" style="height: 20px; width: 40%;">
+        <center><input type="submit" style="height: 50px;"></center>
+    </fieldset><br><br><br><br><br><br><br><br><br><br>
+
+    <form action="">
+        <label for="">name</label>
+        <input type="text" autofocus>
+    </form>
+</body>
+</html>
