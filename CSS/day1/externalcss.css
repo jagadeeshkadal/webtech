@@ -1,0 +1,11 @@
+h1{
+    background-color: rgb(33, 197, 203);
+    color: darkgoldenrod;
+    font-size: 30px;
+}
+p{
+    background-color: aquamarine;
+    color:rgb(74, 147, 5);
+    font-size: 20px;
+    font-weight: 900;
+}
