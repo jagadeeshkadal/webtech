@@ -1,0 +1,62 @@
+/* simple selectors */
+
+/* 1.univerrsal selector(*)-applies to whote html file */
+
+*{
+    background-color: rgb(102, 12, 238);
+    color: brown;
+    font-size: 30px;
+}
+
+/* tag name selector  applies to specific tags*/
+h2{
+    background-color: aqua;
+    font-size:60px ;
+}
+
+/* 3. id selector */
+
+#h3{
+    background-color: rgb(188, 236, 15);
+    font-size: 40px;
+    color: rgb(230, 27, 125);
+}
+
+#para1{
+    background-color:blanchedalmond ;
+    color: blueviolet;
+
+}
+
+#para2{
+    background-color: brown;
+    color: chartreuse;
+
+}
+
+/* 4. class selector */
+.head4{
+    background-color: black;
+    color: bisque;
+    font-size: 20px;
+}
+
+.para3{
+    background-color: rgb(242, 13, 13);
+    color: azure;
+    width: 50%;
+}
+
+.para4{
+    background-color: blueviolet;
+    color: rgb(1, 56, 56);
+}
+
+/* 5. group selector
+ */
+
+h6,.h11,#h{
+    background-color: crimson;
+    color: black;
+    font-size: 20px;
+}
