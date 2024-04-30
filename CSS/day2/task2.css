@@ -1,0 +1,32 @@
+.main{
+    background-color: burlywood;
+    width: 400px;
+    height: 400px;
+}
+h1{
+    float: left;
+}
+.g{
+    color: blue;
+font-size: 80px;
+float: left;
+}
+
+.oe{
+    color: orangered;
+font-size: 80px;
+float: left;
+}
+
+.l{
+    color: green;
+font-size: 80px;
+float: left;
+}
+
+
+.o{
+    color:yellow;
+ font-size: 80px;
+ float: left;   
+}

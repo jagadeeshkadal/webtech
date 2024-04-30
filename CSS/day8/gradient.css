@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div{
+    width: 600px;
+    height: 500px;
+    float: left;
+}
+/* #col1{
+    background-image: linear-gradient(black,blue, green);
+}
+
+#col2{
+    background-image: linear-gradient(35deg,yellow,magenta,black,lightblue,maroon,green);
+} */
+
+/* .hero1{
+    background-image: linear-gradient(100deg,red,transparent,lightblue),url(../../assets/images/lion.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.hero2{
+    background-image: linear-gradient(75deg,green,transparent,darkcyan),url(../../assets/images/family/grandfather/father/yours/yours.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+} */
+
+.ram{
+    background-image: linear-gradient(135deg,darkblue 20%,olive 10%,transparent,rgb(20, 222, 20) 80%,red 80%),url(../../assets/images/90380965.cms);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+}

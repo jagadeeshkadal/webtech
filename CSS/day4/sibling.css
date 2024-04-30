@@ -1,0 +1,104 @@
+#grandfather{
+    background-color: bisque;
+    width: 100%;
+    height: 600px;
+}
+
+#father,#babai{
+    background-color: palegreen;
+    color: black;
+    width: 50%;
+    height: 80%;
+    float: left;
+}
+
+#babai{
+    background-color: paleturquoise;
+    color: black;
+}
+
+#sibling1,#you,#sibling2,#cousin1,#cousin2,#cousin3{
+    background-color: palevioletred;
+    width: 30%;
+    height: 70%;
+    float: left;
+}
+
+#you{
+    background-color: plum;
+    float: left;
+}
+
+#sibling2{
+    background-color: lemonchiffon;
+    float: left;
+}
+
+#cousin1{
+    background-color:lightcoral;
+    float: left;
+}
+
+#cousin2{
+    background-color: lightseagreen;
+    float: left;
+}
+
+#cousin3{
+    background-color: lightpink;
+    float: left;
+}
+
+/* adjacent sibling selector  (+) */
+
+/* #father+#babai{
+    background-color: violet;
+}
+
+#sibling1+#you{
+    background-color: teal;
+}
+
+#you+#sibling2{
+    background-color: slateblue;
+}
+
+#cousin1+#cousin2{
+    background-color: silver;
+}
+
+#cousin2+#cousin3{
+    background-color: seagreen;
+} */
+
+
+
+/* general sibling selector (~) */
+
+#father~#babai{
+    background-color: black;
+}
+
+#sibling1~#you{
+    background-color: aliceblue;
+}
+
+#sibling1~#sibling2{
+    background-color: aliceblue;
+}
+
+#you~#sibling2{
+    background-color: aquamarine;
+}
+
+#cousin1~#cousin2{
+    background-color: lightgoldenrodyellow;
+}
+
+#cousin1~#cousin3{
+    background-color: lightgoldenrodyellow;
+}
+
+#cousin2~#cousin3{
+    background-color: yellowgreen;
+}

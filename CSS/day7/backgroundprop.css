@@ -1,0 +1,81 @@
+/* body{
+    background-color: red;
+} */
+
+    /* 1 background-color */
+input{
+    background-color: transparent;
+    background-color: black;
+    background-color: rgba(255, 228, 196, 0.65);
+    background-color: #7fff00;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: antiquewhite;
+
+
+    /*2 background-image */
+
+    /* background-image: url(https://tse3.mm.bing.net/th?id=OIP.Ogo7SswTG3ARSaqUgNyCmAHaEK&pid=Api&P=0&h=180); */
+    /* background-image: url(../../ASSESTS/image/petals-8307378_1280.jpg); */
+
+
+    /*3 background-repeat */
+
+    background-repeat: no-repeat;
+    /* background-repeat: repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y; */
+
+
+    /*4 background-size */
+    background-size: auto;
+    background-size: contain;
+    background-size: cover;
+    /* background-size:width height */
+    background-size: 500px;
+    background-size: 500px 300px;
+    background-size: 100%;
+    background-size: 50% 60%;
+
+
+    /*5 background-position */
+    height: 100vh;
+    background-position: center;
+    background-position: left;
+    background-position: center left;
+    background-position: right;
+    background-position: center right;
+    background-position: top;
+    background-position: center top;
+    background-position: bottom;
+    background-position: center bottom;
+    background-position: top left;
+    background-position: top right;
+    background-position: bottom left;
+    background-position: bottom right;
+    background-position: 100px;
+    background-position: 100px 200px;
+    background-position: -100px 100px;
+    background-position: 100px -100px;
+    background-position: -200px 0px;
+
+
+    /*6 background-attachment */
+
+    height: 500vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-attachment: local;
+    background-attachment: scroll;
+
+
+    /*7 background */
+    div{
+        width: 100%;
+        height: 500px;
+        background: url(../../assets/images/walk.webp) no-repeat 100%;
+    }
+}

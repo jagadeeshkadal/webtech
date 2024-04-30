@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body{
+    background-image: url(../../assets/images/sun1.png),url(../../assets/images/earth1.png),url(../../assets/images/star.webp);
+    background-size: 300px,400px,100% 300vh;
+    background-position:-60px -60px,center,100%;
+    background-repeat: no-repeat,no-repeat,no-repeat;
+    background-attachment: fixed,local,scroll;
+}
+
+#image{
+    float: right;
+    width: 100px;
+}
+
+marquee{
+    height: 300vh;
+}
