@@ -1,0 +1,12 @@
+.conic{
+    width: 500px;
+    height: 500px;
+    background-image: conic-gradient(yellow,green,yellow,green,yellow,green);
+}
+.conic1{
+    width: 500px;
+    height: 500px;
+    background-image: conic-gradient(transparent,transparent,transparent,skyblue,yellow,lawngreen,skyblue,yellow,lawngreen),url(../../assets/images/NBalakrishnan295x200_x.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

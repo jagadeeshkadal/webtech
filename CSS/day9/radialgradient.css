@@ -1,0 +1,7 @@
+#raidal{
+    width: 500px;
+    height: 500px;
+    background-image: radial-gradient(transparent,black),url(../../assets/images/shinchan.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

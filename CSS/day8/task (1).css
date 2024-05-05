@@ -1,0 +1,14 @@
+div{
+    height: 500px;
+    width: 600px;
+}
+
+#kalyan{
+    background-image: linear-gradient(-45deg,transparent,transparent,rgba(165, 42, 42, 0.73) 80%,blueviolet 70%),
+    linear-gradient(-45deg,blue 20%,rgba(255, 166, 0, 0.628) 20%,transparent,transparent),
+    linear-gradient(45deg,transparent,transparent,rgba(255, 255, 0, 0.539) 80%,green 80%),
+    linear-gradient(45deg,red 20% ,rgba(19, 201, 83, 0.788) 20%,transparent,transparent),url(../../assets/images/NBalakrishnan295x200_x.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+}
